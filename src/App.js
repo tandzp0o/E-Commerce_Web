@@ -15,15 +15,12 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/Category' element={<Category/>}/>
-        <Route path='/Cart' element={<Cart/>}/>
-        <Route path='/Login' element={<LoginSignup/>}/>
-        <Route path='/Indoorplants' element={<Category category='Indoorplants'/>}/>
-        <Route path='/Trees' element={<Category category='Trees'/>}/>
-        <Route path='/Shrubs' element={<Category category='Shrubs'/>}/>
-        <Route path='/Perennials' element={<Category category='Perennials'/>}/>
-        <Route path='/AllTrees' element={<AllTrees/>}>
-          <Route path=':productId' element={<AllTrees/>}/>
+        <Route path='/trees' element={<Category category="tree"/>}/>
+        <Route path='/shrubs' element={<Category category="shrub"/>}/>
+        <Route path='/perennials' element={<Category category="perennial"/>}/>
+        <Route path='/indoorplants' element={<Category category="indoorplant"/>}/>
+        <Route path='/alltrees' element={<AllTrees/>}>
+          <Route path=':treeId' element={<AllTrees/>}/>
         </Route>
       </Routes>
       </BrowserRouter>
