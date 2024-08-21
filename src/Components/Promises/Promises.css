@@ -1,0 +1,43 @@
+.promises{
+    max-width: 68%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: auto;
+    /* padding: 0px 10px; */
+    margin-bottom: 150%;
+    background-image:url(../Assets/bg2.png);
+    background-color: rgb(134, 165, 148);
+    background-size:contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top: 50px;
+}
+
+.promises img{
+    width: 120px;
+    margin-right: 100px;
+}
+
+.promises-text{
+    padding: 50px;
+    text-align: left;
+    width: 60%;
+    color: white;
+    font-size: small;
+}
+
+.section-header small{
+    text-decoration:underline 1.5px;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(134, 165, 148);
+    border-radius: 20px;
+    padding: 10px;
+}
