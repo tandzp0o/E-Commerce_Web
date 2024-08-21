@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Category from './Pages/Category';
@@ -22,6 +23,8 @@ function App() {
         <Route path='/alltrees' element={<AllTrees/>}>
           <Route path=':treeId' element={<AllTrees/>}/>
         </Route>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
       </BrowserRouter>
     </div>
