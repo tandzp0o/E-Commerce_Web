@@ -1,7 +1,5 @@
 import React from 'react'
 import ex_image from '../Assets/ex.png'
-import bg_image from '../Assets/bg1.png'
-import bg_image2 from '../Assets/bg2.png'
 
 
 import './Promises.css'
